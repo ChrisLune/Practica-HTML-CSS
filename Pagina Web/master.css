@@ -1,98 +1,97 @@
 /*------------------------------
-	SETUP BASICO
+    SETUP BASICO
 ------------------------------*/
 
 /* CSS Reset */
 * {
-	margin:  0;
-	padding: 0;
+    margin:  0;
+    padding: 0;
 }
 
 /* Indica al navegador renderizar los elementos de HTML5 como bloques */
 header, footer, section, aside, nav, article {
-	display: block;
+    display: block;
 }
 
 body {
-	margin:     0 auto;
-	padding:    22px 0;
-	width:      940px;
-	font:       13px/22px Helvetica, Arial, sans-serif;
-	background: #F0F0F0;
+    margin:     0 auto;
+    padding:    22px 0;
+    width:      940px;
+    font:       13px/22px Helvetica, Arial, sans-serif;
+    background: #F0F0F0;
 }
 
 h1, h2 {
-	font-size:   28px;
-	line-height: 44px;
-	padding:     22px 0;
+    font-size:   28px;
+    line-height: 44px;
+    padding:     22px 0;
 }
 
 h3 {
-	font-size:   18px;
-	line-height: 22px;
-	padding:     11px 0;
+    font-size:   18px;
+    line-height: 22px;
+    padding:     11px 0;
 }
 
 p {
-	padding-bottom: 22px;
+    padding-bottom: 22px;
 }
 /*------------------------------
-	NAVEGACION
+    NAVEGACION
 ------------------------------*/
 nav {
-	position: absolute;
-	left:       0;
-	width:      100%;
-	background: url("images/nav_background.png");
+    position: absolute;
+    left:       0;
+    width:      100%;
+    background: url("images/nav_background.png");
 }
 
-	nav ul {
-		margin:     0 auto;
-		width:      940px;
-		list-style: none;
-	}
+    nav ul {
+        margin:     0 auto;
+        width:      940px;
+        list-style: none;
+    }
 
-		nav ul li {
-			float: left;
-		}
-		
-			nav ul li a {
-				display:         block;
-				margin-right:    10px;
-				width:           140px;
-				font-size:       14px;
-				line-height:     44px;
-				text-align:      center;
-				text-decoration: none;
-			}
-			
-			
-			nav ul li.subscribe a {
-				margin-left:  22px;
-				padding-left: 33px;
-				text-align:   left;
-				background:   url("images/rss.png") left center no-repeat;
-			}
-
+        nav ul li {
+            float: left;
+        }
+        
+            nav ul li a {
+                display:         block;
+                margin-right:    10px;
+                width:           140px;
+                font-size:       14px;
+                line-height:     44px;
+                text-align:      center;
+                text-decoration: none;
+            }
+            
+            
+            nav ul li.subscribe a {
+                margin-left:  22px;
+                padding-left: 33px;
+                text-align:   left;
+                background:   url("images/rss.png") left center no-repeat;
+            }
 
 /*------------------------------
-	INTRODUCCION
+    INTRODUCCION
 ------------------------------*/
 #intro {
-	position:   relative;
-	margin-top: 66px;
-	padding:    44px;
-	background: #467612 url("Images/Mandala.jpg") repeat-x;
-	
-	/* Background-size not implemented yet */
-	-webkit-background-size: 100%;
-	-o-background-size:      100%;
-	-khtml-background-size:  100%;
+    position:   relative;
+    margin-top: 66px;
+    padding:    44px;
+    background: #467612 url("Images/Mandala.jpg") repeat-x;
+    
+    /* Background-size not implemented yet */
+    -webkit-background-size: 100%;
+    -o-background-size:      100%;
+    -khtml-background-size:  100%;
 
-	
-	/* Border-radius not implemented yet */
-	-moz-border-radius:    22px;
-	-webkit-border-radius: 22px;
+    
+    /* Border-radius not implemented yet */
+    -moz-border-radius:    22px;
+    -webkit-border-radius: 22px;
 }
 
 a: link {
@@ -105,95 +104,95 @@ a: link {
 AREA DE CONTENIDO Y PLANTILLA SIDEBAR
 ------------------------------*/
 #content {
-	display: table;
+    display: table;
 }
 
 #mainContent {
-	display:       table-cell;
-	width:         620px;
-	padding-right: 22px;
+    display:       table-cell;
+    width:         620px;
+    padding-right: 22px;
 }
 
 aside {
-	display:    table-cell;
-	width:      300px;
-	background: url("images/sidebar_background.png") top left;
+    display:    table-cell;
+    width:      300px;
+    background: url("images/sidebar_background.png") top left;
 }
 
 .mover-derecha {
-	float: right;
-	margin-left: 100px; /* Agrega un espacio entre la imagen y el contenido adyacente */
+    float: right;
+    margin-left: 100px; /* Agrega un espacio entre la imagen y el contenido adyacente */
 }
 
 /*------------------------------
-	BLOG POST
+    BLOG POST
 ------------------------------*/
 .blogPost header p, .blogPost header p a {
-		font-size:  14px;
-		font-style: italic;
+        font-size:  14px;
+        font-style: italic;
 
-	}
-	
+    }
+    
 .blogPost header p a: hover {
-	text-decoration: none;
-	
+    text-decoration: none;
+    
 }
 
 .blogPost div {
-	/* Column-count not implemented yet */
-	-moz-column-count:    2;
-	-webkit-column-count: 2;
-	
-	/* Column-gap not implemented yet */
-	-moz-column-gap:    22px;
-	-webkit-column-gap: 22px;
+    /* Column-count not implemented yet */
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    
+    /* Column-gap not implemented yet */
+    -moz-column-gap:    22px;
+    -webkit-column-gap: 22px;
 }
-	
+    
 .blogPost img {
-	margin:             22px 0;
-	-webkit-box-shadow: 3px 3px 7px #777;
+    margin:             22px 0;
+    -webkit-box-shadow: 3px 3px 7px #777;
 }
 
 /*------------------------------
-	COMENTARIOS
+    COMENTARIOS
 ------------------------------*/
 #comments {
-	margin-top:  21px;
-	padding-top: 22px;
-	border-top:  1px solid #d7d7d7;
+    margin-top:  21px;
+    padding-top: 22px;
+    border-top:  1px solid #d7d7d7;
 }
 
 #comments article {
-	display: table;
-	padding: 22px;
+    display: table;
+    padding: 22px;
 }
-	
+    
 #comments article:nth-child(odd) {
-	padding:               21px;
-	background:            #E3E3E3;
-	border:                1px solid #d7d7d7;
-	-moz-border-radius:    11px;
-	-webkit-border-radius: 11px;
+    padding:               21px;
+    background:            #E3E3E3;
+    border:                1px solid #d7d7d7;
+    -moz-border-radius:    11px;
+    -webkit-border-radius: 11px;
 }
-	
+    
 #comments article header {
-	display:       table-cell;
-	width:         220px;
-	padding-right: 22px;
+    display:       table-cell;
+    width:         220px;
+    padding-right: 22px;
 }
-		
+        
 #comments article header a {
-	display:     block;
-	font-weight: bold;
-	
+    display:     block;
+    font-weight: bold;
+    
 }
-			
+            
 #comments article header a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
-		
+        
 #comments article p {
-	padding: 0;
+    padding: 0;
 }
 
 #comments article h4{
@@ -204,119 +203,119 @@ aside {
 FORMULARIO DE COMENTARIOS
 ------------------------------*/
 form {
-	margin-top:  21px;
-	padding-top: 22px;
-	border-top:  1px solid #d7d7d7;
+    margin-top:  21px;
+    padding-top: 22px;
+    border-top:  1px solid #d7d7d7;
 }
 
 form p {
-	display:       table;
-	margin-bottom: 22px;
-	padding:       0 22px;
+    display:       table;
+    margin-bottom: 22px;
+    padding:       0 22px;
 }
 
 form label {
-	display:        table-cell;
-	width:          140px;
-	padding-right:  20px;
-	text-align:     right;
-	font-weight:    bold;
-	vertical-align: top;
+    display:        table-cell;
+    width:          140px;
+    padding-right:  20px;
+    text-align:     right;
+    font-weight:    bold;
+    vertical-align: top;
 }
-	
+    
 form input[type="text"], form input[type="email"], form input[type="url"] {
-	display: table-cell;
-	width:   300px;
-	height:  20px;
-	border:  1px solid #d7d7d7;
+    display: table-cell;
+    width:   300px;
+    height:  20px;
+    border:  1px solid #d7d7d7;
 }
-		
+        
 form textarea {
-	width:  300px;
-	height: 100px;
-	border: 1px solid #d7d7d7;
+    width:  300px;
+    height: 100px;
+    border: 1px solid #d7d7d7;
 }
-		
+        
 form input[type="submit"] {
-	margin-left: 162px;
+    margin-left: 162px;
 }
 
 /*------------------------------
-	AREA LATERAL SIDEBAR
+    AREA LATERAL SIDEBAR
 ------------------------------*/
 aside section {
-	margin:     22px 0 0 22px;
-	padding:    11px 22px;
-	background: url("images/sidebar_section_background.png") repeat-x;
-	
-	/* Border-radius not implemented yet */
-	-moz-border-radius:    11px;
-	-webkit-border-radius: 11px;
+    margin:     22px 0 0 22px;
+    padding:    11px 22px;
+    background: url("images/sidebar_section_background.png") repeat-x;
+    
+    /* Border-radius not implemented yet */
+    -moz-border-radius:    11px;
+    -webkit-border-radius: 11px;
 }
 
 aside section ul {
-	margin:     0 0 0 22px;
-	list-style: none;
+    margin:     0 0 0 22px;
+    list-style: none;
 }
-	
+    
 aside section ul li a {
-	display:         block;
-	text-decoration: none;
-	
+    display:         block;
+    text-decoration: none;
+    
 }
-		
+        
 aside section ul li a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 /*------------------------------
-	PIE DE PAGINA FOOTER
+    PIE DE PAGINA FOOTER
 ------------------------------*/
 footer {
-	position:   absolute;
-	left:       0;
-	width:      100%;
-	background: #222;
+    position:   absolute;
+    left:       0;
+    width:      100%;
+    background: #222;
 }
 
 footer div {
-	display: table;
-	margin:  0 auto;
-	padding: 44px 0;
-	width:   940px;
-	
+    display: table;
+    margin:  0 auto;
+    padding: 44px 0;
+    width:   940px;
+    
 }
-	
+    
 footer div section {
-	display: table-cell;
-	width:   300px;
+    display: table-cell;
+    width:   300px;
 }
-		
+        
 footer div #about, footer div #blogroll {
-	padding-right: 20px;
+    padding-right: 20px;
 }
-		
+        
 footer h3 {
-	color: #FFF;
+    color: #FFF;
 }
-	
+    
 footer a {
-	color: #999;
+    color: #999;
 }
 
 footer a:hover {
-	color:           #FFF;
-	text-decoration: none;
+    color:           #FFF;
+    text-decoration: none;
 }
-	
+    
 footer ul {
-	margin:     0 0 0 40px;
-	list-style: square;
-	color:      #565656;
+    margin:     0 0 0 40px;
+    list-style: square;
+    color:      #565656;
 }
-	
+    
 footer ul li a {
-	display: block;
+    display: block;
 }
 
 /*BACKGROUND*/
@@ -388,5 +387,68 @@ body {
 
     100% {
         transform: translateX(1);
+    }
+}
+
+:root{
+    --bg-color:#000;
+    --main-brand-color:#4515b5;
+    --main-brand-color-light: #3532c0;
+    --secondry-brand-color: #0e1b4f;
+    --main-text-color: #FFF;
+    --border-color: #4b5563;
+    --input-bg-color: #333;
+    --main-font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.main-bg{
+    
+    background-color: rgb(0, 0, 0);
+    background-color: #3c5aa0;
+    background-color: #000;
+    background-color: var(--bg-color);
+    color: var(--main-text-color);
+    opacity: 1;
+    font-family: var(--main-font-family);
+    
+}
+/*form classes*/
+.form_element{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    label{
+        margin-bottom: 1rex;
+    }
+    .input{
+        padding: 1rem;
+        border-radius: 1px;
+        border: none;
+        background: var(--input-bg-color);
+        color: var(--main-text-color);
+        
+    }
+}
+
+.hobbies{
+    display: contents;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*Button*/
+.btn{
+    color: var(--main-text-color);
+    background-color: var(--main-brand-color);
+    text-decoration: none;
+    padding: 0.7rem;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid var(--main-brand-color);
+    transition: background-color 0.3s;
+    &.secondary{
+        background-color: transparent;
+        border: 1px solid var(--main-text-color);
     }
 }
