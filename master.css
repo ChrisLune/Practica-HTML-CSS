@@ -116,7 +116,7 @@ AREA DE CONTENIDO Y PLANTILLA SIDEBAR
 aside {
     display:    table-cell;
     width:      300px;
-    background: url("images/sidebar_background.png") top left;
+    background: url("images/sidebar_background.png") top center;
 }
 
 .mover-derecha {
@@ -451,4 +451,12 @@ body {
         background-color: transparent;
         border: 1px solid var(--main-text-color);
     }
+}
+
+.techno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;   
+
 }
