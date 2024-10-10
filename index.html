@@ -19,16 +19,18 @@
         <h1>Christopher Luna Elizalde</h1>
     </header>
 
-    <nav>
-        <ul>
-            <li class="selected"><a href="#sobre-mi">Sobre mi</a></li>
+    
+    <nav >
+        <ul >
+            <li  class="selected">
+            <a  href="#sobre-mi">Sobre mi</a></li>
             <li><a href="projects.html">Proyectos</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#contacto">Contacto</a></li>
             <li><a href="#email">Correo electronico</a></li>
-            <li><a href="#socialmedia">Redes sociales</a></li>           
+            <li><a href="#socialmedia">Redes sociales</a></li>
         </ul>
     </nav>
+    
 
     <section id="intro">
         <img src="Images/Selfie1.jpg" alt="selfie" width="300" height="300" />
@@ -86,32 +88,27 @@
                             <tr>
                                 <td>
                                     <h4>Jugar videojuegos</h4>
+                                    <img src="Images/videojuego.gif" alt="videojuego" class="mover-derecha" width="150"
+                                        height="100">
                                 </td>
-                                <td></td>
-                                <td><img src="Images/videojuego.gif" alt="videojuego" class="mover-derecha" width="200"
-                                        height="100"></td>
-                            </tr>
-                            <tr>
                                 <td>
-                                    <h4>Escuchar musica</h4>
+                                    <h4>Escuchar música</h4>
+                                    <img src="Images/musica.gif" alt="musica" class="mover-derecha" width="150"
+                                        height="100">
                                 </td>
-                                <td></td>
-                                <td><img src="Images/musica.gif" alt="musica" class="mover-derecha" width="200"
-                                        height="100"></td>
-                            </tr>
-                            <tr>
                                 <td>
                                     <h4>Hacer ejercicio</h4>
+                                    <img src="Images/ejercicio.gif" alt="ejercicio" class="mover-derecha" width="150"
+                                        height="100">
                                 </td>
-                                <td></td>
-                                <td><img src="Images/ejercicio.gif" alt="ejercicio" class="mover-derecha" width="200"
-                                        height="100"></td>
                             </tr>
                         </tbody>
                     </table>
                 </section>
-            </div>  
-          </section>
+            </div>
+
+
+            </section>
             <section id="dioses">
                 <article class="blogPost">
                     <header>
@@ -162,25 +159,23 @@
 
     </div>
     <div>
-        <aside>
-            <section id="contacto">
-                <article class="blogPost"></article>
-                <h2>Contacto</h2>
-                <form>
-                    <div class="form_element">
-                        <label style="text-align: left;" for="name">Nombre</label>
-                        <input class="input" type="text" id="contacto" placeholder="Nombre" name="Nombre" required>
-                    </div>
-                    <div class="form_element">
-                        <label style="text-align: left;" for="name">Apellidos</label>
-                        <input class="input" type="text" id="contacto" placeholder="Apellidos" name="Apellidos"
-                            required>
-                    </div>
-                    <div class="form_element">
-                        <label style="text-align: left;" for="tel">Ingresa tu Telefono</label>
-                        <input class="input" type="tel" id="tel" name="phone" autocomplete="off"
-                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Format (123-123-1234)">
-                    </div>
+    <section id="contacto">
+            <article class="blogPost"></article>
+            <h2>Contacto</h2>
+            <form>
+                <div class="form_element">
+                    <label style="text-align: left;" for="name">Nombre</label>
+                    <input class="input" type="text" id="contacto" placeholder="Nombre" name="Nombre" required>
+                </div>
+                <div class="form_element">
+                    <label style="text-align: left;" for="name">Apellidos</label>
+                    <input class="input" type="text" id="contacto" placeholder="Apellidos" name="Apellidos" required>
+                </div>
+                <div class="form_element">
+                    <label style="text-align: left;" for="tel">Ingresa tu Telefono</label>
+                    <input class="input" type="tel" id="tel" placeholder="Tu Telefono" name="phone" autocomplete="off"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Format (123-123-1234)">
+                </div>
     </div>
     <div>
         <legend>¿Cómo me conociste?</legend>
@@ -198,7 +193,7 @@
 
     <div class="form_element">
         <label for="bio">Mensaje</label>
-        <textarea class="input" name="userbio" id="bio" rows="10" maxlength="180"></textarea>
+        <textarea class="input" type="text" name="userbio" id="bio" rows="2" maxlength="180"></textarea>
     </div>
     <div class="form_element">
         <div>
@@ -210,10 +205,7 @@
         <button class="btn" type="reset">Resetear</button>
         <button class="btn" type="submit">Guardar</button>
     </div>
-    </form>
-    </section>
-    </aside>
-    </div>
+</section>
 
 
     <footer>
@@ -235,9 +227,9 @@
                     <header>
                         <h3>Redes sociales</h3>
                     </header>
-                    <ul>
-                        <li><a href="https://www.facebook.com/Christopher.LunaE"><img src="Images/Facebook.png"
-                                    width="50" height="50" alt=Facebook></a>
+                    <ul style="list-style-type: none; display: flex; padding: 0;">
+                        <li style="margin-right: 10px;"><a href="https://www.facebook.com/Christopher.LunaE"><img
+                                    src="Images/Facebook.png" width="50" height="50" alt=Facebook></a>
                         <li><a href="https://www.instagram.com/christopher.luna.e/"><img src="Images/Instagram.png"
                                     width="50" height="50" alt=Instagram></a>
                         <li><a href="https://x.com/ChrisLunae"><img src="Images/Twitter_X.png" width="50" height="50"

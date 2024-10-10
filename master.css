@@ -390,11 +390,36 @@ body {
     }
 }
 
+
+.hobbies {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 20px;
+    border: 3px solid #560ad161;
+}
+
+.mover-derecha {
+    display: block;
+    margin: 0 auto;
+}
+img {
+    transition: transform 0.2s; /* Efecto de movimiento */
+}
+img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el ratón */
+}
+
 :root{
     --bg-color:#000;
     --main-brand-color:#4515b5;
     --main-brand-color-light: #3532c0;
-    --secondry-brand-color: #0e1b4f;
     --main-text-color: #FFF;
     --border-color: #4b5563;
     --input-bg-color: #333;
@@ -418,39 +443,30 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
-    label{
-        margin-bottom: 1rex;
-    }
-    .input{
-        padding: 1rem;
-        border-radius: 1px;
-        border: none;
-        background: var(--input-bg-color);
-        color: var(--main-text-color);
-        
-    }
+   
+    
 }
-
-.hobbies{
-    display: contents;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-/*Button*/
-.btn{
+.input{
+    padding: 1rem;
+    border-radius: 1px;
+    border: none;
+    background: var(--input-bg-color);
     color: var(--main-text-color);
-    background-color: var(--main-brand-color);
-    text-decoration: none;
-    padding: 0.7rem;
-    display: inline-block;
-    border-radius: 5px;
-    border: 1px solid var(--main-brand-color);
-    transition: background-color 0.3s;
-    &.secondary{
-        background-color: transparent;
-        border: 1px solid var(--main-text-color);
-    }
+    
+}
+/*Button*/
+.btn {
+    padding: 10px 15px;
+    background-color: #5a1fc994;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 2px;
+}
+.btn:hover {
+    background-color: #3721b2;
+    margin: 3px;
 }
 
 .techno {
@@ -460,3 +476,38 @@ body {
     margin: 20px 0;   
 
 }
+#habilidades {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.barra-progreso {
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    
+}
+
+.progreso {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.html {
+    background-color: #e44d26; /* Color para HTML */
+}
+
+.css {
+    background-color: #2965f1; /* Color para CSS */
+}
+
+.js {
+    background-color: #f7df1e; /* Color para JavaScript */
+    color: black; /* Cambiar color de texto para mejor visibilidad */
+}
+
+
