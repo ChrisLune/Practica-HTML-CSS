@@ -173,11 +173,11 @@
                 </div>
                 <div class="form_element">
                     <label style="text-align: left;" for="tel">Ingresa tu Telefono</label>
-                    <input class="input" type="tel" id="tel" placeholder="Tu Telefono" name="phone" autocomplete="off"
+                    <input class="input" type="text" id="tel" placeholder="Tu Telefono" name="phone" autocomplete="off"
                         pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Format (123-123-1234)">
                 </div>
     </div>
-    <div>
+    <fieldset>
         <legend>¿Cómo me conociste?</legend>
         <label for="universidad">Universidad<input type="radio" id="universidad" name="conocido" value="universidad"
                 required></label>
@@ -185,8 +185,9 @@
                 required></label>
         <label for="colegio">Colegio<input type="radio" id="colegio" name="conocido" value="colegio" required></label>
         <label for="github">En Github<input type="radio" id="github" name="conocido" value="github" required></label>
-    </div>
-    <div class="form_element">
+    </fieldset>
+
+    <div>
         <label for="bio">Git</label>
         <input class="input" type="text" id="github" placeholder="@github" pattern="^@[^\s]+" required>
     </div>
@@ -216,10 +217,8 @@
                         <h3>Correo electronico</h3>
                     </header>
                     <ul>
-                        <li class="email"><a href="mailto:christopher.lunae@gmail.com">christopher.lunae@gmail.com (Da
-                                click
-                                para enviarme un correo)
-                                <img src="Images/Gmail.png" width="20" height="20" alt="gmail"></a></li>
+                        <li class="email"><a href="mailto:christopher.lunae@gmail.com">christopher.lunae@gmail.com (Da click para enviarme un correo)</a></li>
+                        <img src="Images/Gmail.png" width="20" height="20" alt="gmail">
                     </ul>
                 </section>
 
