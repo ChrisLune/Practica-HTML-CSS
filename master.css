@@ -15,7 +15,7 @@ header, footer, section, aside, nav, article {
 
 body {
     margin:     0 auto;
-    padding:    22px 0;
+    padding:    50px 0;
     width:      940px;
     font:       13px/22px Helvetica, Arial, sans-serif;
     background: #F0F0F0;
@@ -390,7 +390,7 @@ body {
     }
 }
 
-
+/*Hobbies*/
 .hobbies {
     text-align: center;
 }
@@ -402,7 +402,8 @@ table {
 
 td {
     padding: 20px;
-    border: 3px solid #560ad161;
+    border: 3px solid #7023ed00;
+    
 }
 
 .mover-derecha {
@@ -516,3 +517,12 @@ img:hover {
 }
 
 
+.conociste {
+    display: flex;
+    flex-direction: initial;
+    margin: 10px 0;
+    padding: 3;
+}
+label {
+    margin: 3px 0;
+}

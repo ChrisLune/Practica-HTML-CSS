@@ -1,12 +1,3 @@
-Creación de un portfolio
-Consideraciones generales
-● No se permite el uso de librerías y frameworks externos como Bootstrap,
-Spectre.css o similares.
-● Se tiene que crear una o más hojas de estilo CSS para aplicar el diseño deseado a
-la web.
-● La página web debe visualizarse correctamente en las versiones actuales de Google
-Chrome, Mozilla Firefox y Microsoft Edge.
-● No se puede usar JavaScript.
 Descripción de la práctica
 Nuestro objetivo es construir un portfolio sobre nosotros (o un personaje de ficción). Este
 proyecto tiene que cumplir los siguientes requisitos:
@@ -43,15 +34,19 @@ con una animación de fadeIn.
 diseño en caso de no quedar claro.
 ● README con toda la información necesaria para facilitar la forma de evaluar la
 práctica. https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
-● Hacer un menú burger con solo CSS y un input checkbox, para
+● (Opcional) Podemos hacer un menú burger con solo CSS y un input checkbox, para
 no usar JS.
-● Despliegue en Github pages
-● Página de 404. Libre diseño
-● Página 500. Libre diseño
+● (Opcional) Despliegue en Github pages
+● (Opcional) Página de 404. Libre diseño
+● (Opcional) Página 500. Libre diseño
 Detalles de implementación
 ● La estructura de la web tiene que tener en cuenta las etiquetas de contenido
 semántico.
 ● Debéis incluir las media queries necesarias para que el diseño sea responsivo. Tiene
 que SER MOBILE FIRST!! Sino es un NO APTO.
 ● Las animaciones o interactividad propuesta deben realizarse exclusivamente
-mediante técnicas CSS sin el uso de librerías externas
+mediante técnicas CSS sin el uso de librerías externas.
+● Los apartados marcados como opcionales no son necesarios para obtener la
+calificación de APTA, pero se valorarán positivamente.
+● Tiene que entregarse en a través de Github. No se valorará, pero un buen uso de
+commits será algo positivo. Una entrega en un solo commit, no es algo correcto.

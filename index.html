@@ -19,18 +19,19 @@
         <h1>Christopher Luna Elizalde</h1>
     </header>
 
-    
-    <nav >
-        <ul >
-            <li  class="selected">
-            <a  href="#sobre-mi">Sobre mi</a></li>
+
+    <nav>
+        <ul>
+            <li class="selected">
+                <a href="#sobre-mi">Sobre mi</a>
+            </li>
             <li><a href="projects.html">Proyectos</a></li>
             <li><a href="#contacto">Contacto</a></li>
             <li><a href="#email">Correo electronico</a></li>
             <li><a href="#socialmedia">Redes sociales</a></li>
         </ul>
     </nav>
-    
+
 
     <section id="intro">
         <img src="Images/Selfie1.jpg" alt="selfie" width="300" height="300" />
@@ -43,6 +44,7 @@
                 <article class="blogPost">
                     <header>
                         <h3>Sobre mi</h3>
+                        <hr>
                     </header>
                     <div>
                         <p> Actualmente me encuentro laborando como Analista de Sistemas en la empresa Petstar, su rubro
@@ -120,12 +122,14 @@
                             inteligencia, la prudencia, la abundancia, la política y los nuevos comienzos. Asimismo, es
                             patrono de las artes, las letras y las ciencias. Ganesha es uno de los dioses más populares
                             del hinduismo.</p>
+                        <img src="Images/shiva.jpg" alt="shiva" width="300" height="170">
+
 
                         <p>El nombre Ganesha proviene del sánscrito gana e īśa. Gana significa ‘grupo’, ‘multitud’ o
                             ‘pueblo’; mientras que īśa es un sufijo que significa ‘señor’, ‘amo’ o ‘gobernante’. Por
                             ende, Ganesha significa jefe del grupo de seres semidivinos del séquito de Shiva. También
                             significa señor del pueblo.</p>
-                        <img src="Images/Ganesh.jpeg" alt="Julio Cesar" width="300" height="170">
+                        <img src="Images/Ganesh.jpeg" alt="Ganesh" width="300" height="170">
 
                         <p>A Ganesha se le atribuye la capacidad de liberar el camino de obstáculos y dar buena fortuna
                             a quien obra bien. Por eso, todos los ritos y ceremonias hindúes, así como las negociaciones
@@ -140,7 +144,7 @@
                         <header>
                             <h3>Kali (Diosa hind&uacute;)</h3>
                         </header>
-                        <img src="Images/kali.jpeg" alt="cifradocesar" width="225" height="225">
+                        <img src="Images/kali.jpeg" alt="Kali" width="225" height="225">
                         <p>Kali es la diosa hindú de la muerte, el tiempo y el fin del mundo. A menudo se la asocia con
                             la sexualidad y la violencia, pero también se la considera una fuerte figura materna y
                             símbolo del amor maternal. Kali encarna la shakti (energía femenina, creatividad y
@@ -159,10 +163,12 @@
 
     </div>
     <div>
-    <section id="contacto">
+        
+        <section id="contacto">
             <article class="blogPost"></article>
             <h2>Contacto</h2>
-            <form>
+
+            <form method="post" novalidate>
                 <div class="form_element">
                     <label style="text-align: left;" for="name">Nombre</label>
                     <input class="input" type="text" id="contacto" placeholder="Nombre" name="Nombre" required>
@@ -176,21 +182,23 @@
                     <input class="input" type="text" id="tel" placeholder="Tu Telefono" name="phone" autocomplete="off"
                         pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Format (123-123-1234)">
                 </div>
+                <div>
+                    <label style="text-align: left;" for="bio">Git</label>
+                    <input class="input" type="text" id="github" placeholder="@github" pattern="^@[^\s]+" required>
+                </div>
+       
     </div>
     <fieldset>
         <legend>¿Cómo me conociste?</legend>
-        <label for="universidad">Universidad<input type="radio" id="universidad" name="conocido" value="universidad"
-                required></label>
-        <label for="keepcoding">Keepcoding<input type="radio" id="keepcoding" name="conocido" value="keepcoding"
-                required></label>
-        <label for="colegio">Colegio<input type="radio" id="colegio" name="conocido" value="colegio" required></label>
-        <label for="github">En Github<input type="radio" id="github" name="conocido" value="github" required></label>
+        <div class="conociste">
+            <label for="universidad">Universidad<input type="radio" id="universidad" name="conocido" value="universidad" required></label>
+            <label for="keepcoding">Keepcoding<input type="radio" id="keepcoding" name="conocido" value="keepcoding" required></label>
+            <label for="colegio">Colegio<input type="radio" id="colegio" name="conocido" value="colegio" required></label>
+            <label for="github">En Github<input type="radio" id="github" name="conocido" value="github" required></label>
+        </div>
     </fieldset>
 
-    <div>
-        <label for="bio">Git</label>
-        <input class="input" type="text" id="github" placeholder="@github" pattern="^@[^\s]+" required>
-    </div>
+    
 
     <div class="form_element">
         <label for="bio">Mensaje</label>
@@ -206,7 +214,8 @@
         <button class="btn" type="reset">Resetear</button>
         <button class="btn" type="submit">Guardar</button>
     </div>
-</section>
+    </form>
+    </section>
 
 
     <footer>
@@ -217,7 +226,8 @@
                         <h3>Correo electronico</h3>
                     </header>
                     <ul>
-                        <li class="email"><a href="mailto:christopher.lunae@gmail.com">christopher.lunae@gmail.com (Da click para enviarme un correo)</a></li>
+                        <li class="email"><a href="mailto:christopher.lunae@gmail.com">christopher.lunae@gmail.com (Da
+                                click para enviarme un correo)</a></li>
                         <img src="Images/Gmail.png" width="20" height="20" alt="gmail">
                     </ul>
                 </section>
