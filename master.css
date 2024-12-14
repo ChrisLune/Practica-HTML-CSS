@@ -652,3 +652,91 @@ label {
         margin: 0 5px;
     }
 }
+
+/* Estilos para tabletas */
+@media (min-width: 431px) and (max-width: 768px) {
+    body {
+        width: 90%;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    #intro {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .blogPost img {
+        width: 100%;
+        height: auto;
+    }
+
+    .form_element {
+        margin-bottom: 15px;
+    }
+
+    .input {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .techno iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .hobbies table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .hobbies td {
+        padding: 15px;
+        border: 1px solid #7023ed00;
+    }
+
+    .mover-derecha {
+        margin: 0 auto;
+    }
+
+    footer div {
+        display: block;
+        text-align: center;
+    }
+
+    footer div section {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    footer ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+    }
+
+    footer ul li {
+        margin: 0 10px;
+    }
+}
