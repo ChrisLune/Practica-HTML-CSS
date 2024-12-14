@@ -89,7 +89,7 @@ nav ul li.subscribe a {
     margin-top: 66px;
     padding: 44px;
     background: #467612 url("Images/Mandala.jpg") repeat-x;
-
+  
     /* Background-size not implemented yet */
     -webkit-background-size: 100%;
     -o-background-size: 100%;
@@ -449,6 +449,13 @@ img:hover {
     font-size: 20px;
 }
 
+body {
+    background-color: var(--bg-color);
+    color: var(--main-text-color);
+    font-family: var(--main-font-family);
+}
+
+
 .main-bg {
 
     background-color: rgb(0, 0, 0);
@@ -555,4 +562,93 @@ img:hover {
 
 label {
     margin: 3px 0;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 430px) {
+    body {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    #intro {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .blogPost img {
+        width: 100%;
+        height: auto;
+    }
+
+    .form_element {
+        margin-bottom: 10px;
+    }
+
+    .input {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .techno iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    .hobbies table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .hobbies td {
+        padding: 10px;
+        border: 1px solid #7023ed00;
+    }
+
+    .mover-derecha {
+        margin: 0 auto;
+    }
+
+    footer div {
+        display: block;
+        text-align: center;
+    }
+
+    footer div section {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    footer ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+    }
+
+    footer ul li {
+        margin: 0 5px;
+    }
 }
