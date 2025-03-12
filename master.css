@@ -73,7 +73,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-
 nav ul li.subscribe a {
     margin-left: 22px;
     padding-left: 33px;
@@ -89,24 +88,23 @@ nav ul li.subscribe a {
     margin-top: 66px;
     padding: 44px;
     background: #467612 url("Images/Mandala.jpg") repeat-x;
-  
+
     /* Background-size not implemented yet */
     -webkit-background-size: 100%;
     -o-background-size: 100%;
     -khtml-background-size: 100%;
-
 
     /* Border-radius not implemented yet */
     -moz-border-radius: 22px;
     -webkit-border-radius: 22px;
 }
 
-a: link {
-    color: blue
+a:link {
+    color: blue;
 }
 
-a: visited {
-    color: purple
+a:visited {
+    color: purple;
 }
 
 /*------------------------------
@@ -141,12 +139,10 @@ aside {
 .blogPost header p a {
     font-size: 14px;
     font-style: italic;
-
 }
 
-.blogPost header p a: hover {
+.blogPost header p a:hover {
     text-decoration: none;
-
 }
 
 .blogPost div {
@@ -195,7 +191,6 @@ aside {
 #comments article header a {
     display: block;
     font-weight: bold;
-
 }
 
 #comments article header a:hover {
@@ -274,7 +269,6 @@ aside section ul {
 aside section ul li a {
     display: block;
     text-decoration: none;
-
 }
 
 aside section ul li a:hover {
@@ -296,7 +290,6 @@ footer div {
     margin: 0 auto;
     padding: 44px 0;
     width: 940px;
-
 }
 
 footer div section {
@@ -333,7 +326,6 @@ footer ul li a {
 }
 
 /*BACKGROUND*/
-
 body {
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -419,7 +411,6 @@ table {
 td {
     padding: 20px;
     border: 3px solid #7023ed00;
-
 }
 
 .mover-derecha {
@@ -455,9 +446,7 @@ body {
     font-family: var(--main-font-family);
 }
 
-
 .main-bg {
-
     background-color: rgb(0, 0, 0);
     background-color: #3c5aa0;
     background-color: #000;
@@ -465,7 +454,6 @@ body {
     color: var(--main-text-color);
     opacity: 1;
     font-family: var(--main-font-family);
-
 }
 
 /*form classes*/
@@ -473,8 +461,6 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
-
-
 }
 
 .input {
@@ -483,7 +469,6 @@ body {
     border: none;
     background: var(--input-bg-color);
     color: var(--main-text-color);
-
 }
 
 /*Button*/
@@ -508,7 +493,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: 20px 0;
-
 }
 
 /*Habilidades*/
@@ -523,7 +507,6 @@ body {
     border-radius: 4px;
     padding: 3px;
     width: 100%;
-
 }
 
 .progreso {
@@ -532,7 +515,6 @@ body {
     padding: 10px;
     border-radius: 3px;
     margin: 5px 0;
-
 }
 
 .html {
@@ -551,7 +533,6 @@ body {
     color: black;
     /* Cambiar color de texto para mejor visibilidad */
 }
-
 
 .conociste {
     display: flex;
@@ -738,94 +719,5 @@ label {
 
     footer ul li {
         margin: 0 10px;
-    }
-}
-
-@media (max-width: 430px) {
-    /* Styles for mobile devices */
-    body {
-        width: 100%;
-        padding: 10px;
-        font-size: 16px;
-    }
-
-    header {
-        text-align: center;
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        width: 100%;
-        text-align: center;
-    }
-
-    #intro {
-        padding: 10px;
-        text-align: center;
-    }
-
-    .blogPost img {
-        width: 100%;
-        height: auto;
-    }
-
-    .form_element {
-        margin-bottom: 10px;
-    }
-
-    .input {
-        width: 100%;
-        padding: 10px;
-    }
-
-    .btn {
-        width: 100%;
-        margin: 5px 0;
-    }
-
-    .techno iframe {
-        width: 100%;
-        height: 200px;
-    }
-
-    .hobbies table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-
-    .hobbies td {
-        padding: 10px;
-        border: 1px solid #7023ed00;
-    }
-
-    .mover-derecha {
-        margin: 0 auto;
-    }
-
-    footer div {
-        display: block;
-        text-align: center;
-    }
-
-    footer div section {
-        display: block;
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    footer ul {
-        display: flex;
-        justify-content: center;
-        list-style: none;
-        padding: 0;
-    }
-
-    footer ul li {
-        margin: 0 5px;
     }
 }
